@@ -1,0 +1,10 @@
+valores = list()
+for cont in range(0,5):
+    valores.append(int(input(f'Digite um valor para a posição {cont}: ')))
+print(f'voce digitou os valores {valores}')
+maior = max(valores)
+menor = min(valores)
+posMenor = valores.index(menor)
+posMaior = valores.index(maior)
+print(f'O MENOR VALOR DIGITADO FOI {menor} nas posicoes {posMenor}')
+print(f'O MAIOR VALOR DIGITADO FOI {maior} nas posicoes {posMaior}')
